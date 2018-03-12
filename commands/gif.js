@@ -7,7 +7,7 @@ exports.run = function(client, message, args) {
 
 
 
-    unirest.post("http://grwh.ga/api/gif.php?term=" + word)
+    unirest.post("http://grwh.work/api/gif.php?term=" + word)
         .header("Accept", "application/json")
         .end(function(result) {
             // For debug Only
